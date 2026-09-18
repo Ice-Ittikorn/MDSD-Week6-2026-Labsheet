@@ -1,4 +1,4 @@
-**วิชา** การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่ | **เครื่องมือ** Flutter, http package, Postman, Google AI Studio (Gemini API), OpenWeather API
+# **วิชา** การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่ | **เครื่องมือ** Flutter, http package, Postman, Google AI Studio (Gemini API), OpenWeather API
 
 ---
 
@@ -854,9 +854,18 @@ class _HomePageState extends State<HomePage> {
 
 > ✅ **Checkpoint 7.3** รันแอปแล้วถ่ายภาพหน้าจอ Home ที่แสดงรายการสินค้าจริงจาก Fake Store API ผ่าน `ItemRepositoryApi` (ไม่ใช่ข้อมูล mock up) พร้อมภาพโครงสร้างไฟล์ที่แสดงให้เห็นว่ามีทั้ง `item_repository.dart` (Interface) และ `item_repository_api.dart` (Impl) แยกกันชัดเจน และทดสอบว่าปุ่ม "เพิ่มลงตะกร้า" กับการกดไปหน้า `CheckoutPage` จากสัปดาห์ที่ 5 ยังทำงานได้ปกติกับข้อมูล `Item` ชุดใหม่นี้ 
 
-```text
-บันทึกรูปที่นี่
-```
+## Home
+<img width="1507" height="849" alt="image" src="https://github.com/user-attachments/assets/272b9713-21ae-4b71-bbc8-22f1dc443320" />
+
+## เพิ่มรายการโปรด
+<img width="1510" height="850" alt="image" src="https://github.com/user-attachments/assets/6c165eef-9314-4d3b-a9ac-24ff86e7890a" />
+
+## รายการโปรด
+<img width="1508" height="845" alt="image" src="https://github.com/user-attachments/assets/282a84f5-cb96-4097-84f5-c905b0fcd5fd" />
+
+## ลบรายการโปรด
+<img width="1509" height="847" alt="image" src="https://github.com/user-attachments/assets/f9310b44-789e-4573-9370-9fddb6c807b5" />
+
 
 ---
 
