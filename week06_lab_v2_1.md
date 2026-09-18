@@ -578,7 +578,17 @@ Future<Weather> fetchWeatherWithDio(String city) async {
 > ✅ **Checkpoint 5.2** เปรียบเทียบสั้น ๆ ระหว่าง `http` กับ `dio` อย่างน้อย 3 ประเด็น โดยอ้างอิงจากสิ่งที่สังเกตได้จริงตอนทดลองในขั้นตอนที่ 5.3 เช่น การแปลง JSON อัตโนมัติ, การกำหนด Query Parameters, และรูปแบบการจัดการ Exception (`DioException` เทียบกับการดักจับหลายชนิดแยกกันแบบ `http`)
 
 ```text
-บันทึกคำตอบที่นี่
+1. การแปลง JSON
+   - http ต้องเรียก jsonDecode(response.body) เองก่อน ถึงจะได้ Map<String, dynamic> ไปใช้ต่อ 
+   - dio response.data เป็น Map<String, dynamic> ให้อัตโนมัติ ไม่ต้องเรียก jsonDecode เลย 
+
+2. การกำหนด Query Parameters
+   - http ต้องพิม string เองทั้งหมด เช่น $_baseUrl?q=$city&appid=$_apiKey&units=metric&lang=th
+   - dio ส่งเป็น Map ผ่าน queryParameters จะอ่านง่ายกว่า และ dio จัดการ encode ค่าที่มีอักขระพิเศษให้อัตโนมัติ
+
+3. การจัดการ Exception
+   - http error แต่ละสาเหตุมาเป็นคนละชนิด ต้องดักแยกด้วย on TimeoutException, on http.ClientException, on FormatException คนละ catch block
+   - dio error ทุกสาเหตุถูกหอรวมเป็น DioException ชนิดเดียว แล้วแยกสาเหตุจริงด้วยการเช็ก e.type  ในเงื่อนไข if/else ภายใน catch เดียว ทำให้โค้ดกระชับกว่าแต่ต้องรู้จัก DioExceptionType ทุกตัวเพื่อจัดการให้ครบ
 ```
 >
 > ✅ **Checkpoint 5.3** แสดงโค้ดเงื่อนไข `DioExceptionType` เพิ่มเติมที่เขียนเองในขั้นตอนที่ 5.4 
