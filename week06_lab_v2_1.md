@@ -1,4 +1,4 @@
-# ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
+<img width="1196" height="358" alt="image" src="https://github.com/user-attachments/assets/d03c6a23-d97e-464d-87f9-fa20d1d6c10e" /># ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
 
 **วิชา** การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่ | **เครื่องมือ** Flutter, http package, Postman, Google AI Studio (Gemini API), OpenWeather API
 
@@ -359,9 +359,10 @@ class MyApp extends StatelessWidget {
 
 > ✅ **Checkpoint 2.3** รันแอปแล้วทดสอบทั้ง 3 สถานการณ์ คือ (1) ค้นหาเมืองที่มีจริง (2) ค้นหาเมืองที่ไม่มีอยู่จริง (3) ปิด Wi-Fi/Data บนเครื่องแล้วลองค้นหา ถ่ายภาพหน้าจอทั้ง 3 กรณี
 
-```text
-บันทึกรูปที่นี่
-```
+<img width="1189" height="385" alt="image" src="https://github.com/user-attachments/assets/02b8e4e7-0e42-4880-8a53-39547a9d1864" />
+<img width="1190" height="319" alt="image" src="https://github.com/user-attachments/assets/fbdd1914-d199-4748-b4c7-7c7daa8ff4ab" />
+<img width="1196" height="355" alt="image" src="https://github.com/user-attachments/assets/01f724f3-fcbf-4d0a-9f93-6bc642f9c07a" />
+
 
 ---
 
