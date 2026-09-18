@@ -90,8 +90,10 @@ Key ที่จะใช้เเสดงผลใน app weather main wind ra
 > ✅ **Checkpoint 1.2** บันทึกด้านล่างว่านักศึกษาเลือกทดสอบกรณีใด คาดการณ์ Status Code ไว้ว่าอะไร และ Status Code จริงที่ได้คืออะไร (ตรงหรือไม่ตรงกับที่คาดไว้) พร้อมอธิบายว่าผลลัพธ์ที่ได้ตรงกับช่วง Status Code ใดตามตารางในบทเรียนหัวข้อ 6.3
 
 ```text
-บันทึกรูปและคำตอบที่นี่
+คาดการ์ณว่า status code จะเป็น 404 Status Code จริงที่ได้คือ 404 ตรงกับที่คาดใว้ ผลลัพธ์ตรงกับ ช่วง Status Code 404 Not Found	ไม่พบทรัพยากรที่ขอ
 ```
+<img width="958" height="580" alt="image" src="https://github.com/user-attachments/assets/7824d7b1-bef1-485e-b8a7-e4a17382e5e5" />
+
 ---
 
 ## ส่วนที่ 2: สร้าง Model Class และเรียก API ด้วย http Package
