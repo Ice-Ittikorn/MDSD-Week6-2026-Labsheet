@@ -486,13 +486,14 @@ GET https://fakestoreapi.com/products
 ไม่ว่าจะเลือกแบบไหน เป้าหมายคือต้องเห็น **ผลลัพธ์จริงจาก Fake Store API** ปรากฏขึ้นมา  ถ้ารันแล้วเจอ error หรือโค้ดจาก Gemini ผิดพลาด (เช่น import ขาด, ชื่อ field ไม่ตรงกับ JSON จริง) ให้จดบันทึกข้อความ error และวิธีแก้ไขไว้ในด้านล่าง
 
 ```text
-บันทึก error และการแก้ไขที่นี่
+ไม่ได้ import 'dart:async' ในไฟล์ ai_product_service.dart
+เเก้โดยการ import 'dart:async'
 ```
 
 > ✅ **Checkpoint 4.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดงผลลัพธ์จริงจากการเรียก `fetchAiProducts()` (เช่น รายการสินค้าที่ print ออกมา) 
-```text
-บันทึกรูปที่นี่
-```
+
+<img width="1129" height="467" alt="image" src="https://github.com/user-attachments/assets/fb834578-c0e7-47a6-b458-c3a3fe78ab1d" />
+
 
 ---
 
