@@ -1,5 +1,3 @@
-<img width="1196" height="358" alt="image" src="https://github.com/user-attachments/assets/d03c6a23-d97e-464d-87f9-fa20d1d6c10e" /># ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
-
 **วิชา** การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่ | **เครื่องมือ** Flutter, http package, Postman, Google AI Studio (Gemini API), OpenWeather API
 
 ---
